@@ -1,0 +1,16 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+
+  - title: posts
+    post_list:
+      limit: 10
+
+  - title: info
+    entries:
+      - title: about
+        url: about
+
+      - title: my github
+        url: https://github.com/keidax
