@@ -1,0 +1,11 @@
+// Overrides for the default CSS go here
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+
+body {
+  font-family: "Inconsolata";
+  font-size: 1.3em;
+  font-weight: 350;
+  font-variation-settings:
+    "wdth" 90;
+}

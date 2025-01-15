@@ -1,0 +1,26 @@
+<!--
+  This is duplicated from
+  https://github.com/riggraz/no-style-please/blob/master/_includes/head.html
+  with the addition of an override stylesheet.
+-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    {%- if page.title -%}
+      {{ page.title }}
+    {%- else -%}
+      {{ site.title }}
+    {%- endif -%}
+  </title>
+
+  {%-seo title=false-%}
+  {%-feed_meta-%}
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/theme-override.css" | relative_url }}" />
+</head>
