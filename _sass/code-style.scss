@@ -1,0 +1,18 @@
+$rounding-radius: 0.3em;
+$code-foreground: #303030;
+$code-background: #e8e8e8;
+
+code.highlighter-rouge {
+  padding: 0.2em 0.3em 0.1em;
+  border-radius: $rounding-radius;
+
+  color: $code-foreground;
+  background-color: $code-background;
+}
+
+div.highlighter-rouge code {
+  border-radius: $rounding-radius;
+
+  color: $code-foreground;
+  background-color: $code-background;
+}
