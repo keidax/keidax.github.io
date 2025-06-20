@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Measuring frustration in Quiddler, a word game"
-date: 2025-05-16 12:45:00 -0400
+date: 2025-06-20 12:45:00 -0400
 tags: update
 ---
 
